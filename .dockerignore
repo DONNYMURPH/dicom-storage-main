@@ -1,0 +1,5 @@
+.git
+.github
+extra_on_cluster
+k8s
+*.md

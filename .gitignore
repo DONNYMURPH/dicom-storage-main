@@ -1,3 +1,23 @@
+# Cluster-specific config (node names, IPs, namespaces, secrets) - keep local, never public
+k8s/
+extra_on_cluster/
+*secret*.yaml
+*.env
+.env*
+*.pem
+*.key
+*.crt
+
+# Test data / anything that could hold PHI
+*.dcm
+*.csv
+*.log
+
+# Editor / OS / tooling
+.DS_Store
+.vscode/
+.idea/
+.claude/
 .venv/
 __pycache__/
 *.pyc
